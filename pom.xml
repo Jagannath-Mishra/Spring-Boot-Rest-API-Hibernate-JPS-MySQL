@@ -64,11 +64,20 @@
 			<version>2.6.1</version>
 			<scope>compile</scope>
 		</dependency>
-		<!-- Add for Xml jackson -->
+		
+		<!-- Xml jackson Conversion -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
+		
+		<!-- Log4j Logging -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+		
+		
 	</dependencies>
 
 	<build>
